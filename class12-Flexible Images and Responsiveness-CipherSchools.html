@@ -1,0 +1,26 @@
+@@ -0,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images and responsiveness in html</title>
+</head>
+
+<body>
+
+	<img src="hii.jpg" alt="house" srcset="/assets/small.jpg 480w,/assets/medium.jpg 800w,/assets/large.jpg 1200w"
+sizes="(max-width: 480 px) 240px,(max-width:960px) 480px,(max-width: 1440px) 960 px">
+
+<picture>
+	<source media="(max-width:600px)" srcset="htt.jpg">
+	<source media="(max-width:900px)" srcset="hii.jpg">
+	<img src="hello.jpg" alt="">
+</picture>
+
+</body>
+
+</html>
